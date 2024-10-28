@@ -4,45 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>My React Portfolio</title>
+    
     <!-- Bootstrap CSS -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-DyZvZgE6j9K8F2e3G1r8y1S5c5VJ0zFJ8e5G5r5G5y5G5y5G5y5G5y5G5y5G5y5"
-      crossorigin="anonymous"
-    />
+    <!-- <link 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-DyZvZgE6j9K8F2e3G1r8y1S5c5VJ0zFJ8e5G5r5G5y5G5y5G5y5G5y5G5y5G5y5" 
+      crossorigin="anonymous" 
+    /> -->
+    
     <!-- Custom CSS for Coolors Color Palette -->
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
-
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles.css'; // Ensure you import your CSS here if needed
-
-function Header() {
-  return (
-    <header className="header">
-      <h1>No Shapes, No Colors</h1>
-    </header>
-  );
-}
-
-function Main() {
-  return (
-    <section>
-      {/* Add content for the main section here */}
-    </section>
-  );
-}
-
-ReactDOM.render(
-  <Header />,
-  document.getElementById('root')
-);

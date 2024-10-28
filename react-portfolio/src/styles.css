@@ -15,8 +15,8 @@
   
   .header {
     background-color: var(--color-teal);
-    padding: 20px;
-    text-align: center;
+    padding: 5px;
+    /* text-align: center; */
   }
   
   .footer {

@@ -1,25 +1,22 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Main from './components/Main';
 import Footer from './components/Footer';
-import './styles.css'; // Import your custom styles
+
 
 function App() {
   return (
-      <div>
-          <Header />
-          <About />
-          <Projects />
-          <Contact />
-          <Footer />
-      </div>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }
 
-export default App;
-
-
+export default App
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -49,4 +46,4 @@ export default App;
 //   )
 // }
 
-// export default App
+
