@@ -84,11 +84,17 @@ button {
 }
 
 button:hover {
-    background-color: rgb(155, 205, 232); /* Change background on hover */
+    background-color: rgb(18, 25, 162); /* Change background on hover */
 }
 
 /* LinkedIn Icon */
 .linkedin-icon {
-    width: 40px; /* Set the desired width */
-    height: 40px; /* Set the desired height */
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
+}
+
+/* Stack Overflow Icon */
+.stack-overflow-icon {
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
 }

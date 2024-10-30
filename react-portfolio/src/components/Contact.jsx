@@ -49,16 +49,30 @@ function Contact() {
                 <button type="submit">Submit</button> {/* Specify button type */}
             </form>
 
-            <p> Find me on GitHub at <a href="https://github.com/Jessica-Lee1424" target="_blank" rel="noopener noreferrer">Jessica-Lee1424's GitHub</a> </p>
-            <p> or connect with me on LinkedIn 
+            <p>
+                Find me on GitHub at 
+                <a href="https://github.com/Jessica-Lee1424" target="_blank" rel="noopener noreferrer">
+                    Jessica-Lee1424's GitHub
+                </a>
+            </p>
+            <p>
+                or connect with me on LinkedIn 
                 <a href="https://www.linkedin.com/in/jessica-gonnella-35a29262" target="_blank" rel="noopener noreferrer">
-                <svg className="linkedin-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.481 0 1.08 0h13.84C15.519 0 16 .513 16 1.146v13.708C16 15.487 15.519 16 14.92 16H1.08C.481 16 0 15.487 0 14.854V1.146zM4.5 13.5V8.5H3v5h1.5zm-1.5-6h1.5V6H3v1.5zm9.5 6V10c0-1.086-.23-1.5-1.5-1.5-1.086 0-1.5.414-1.5 1.5v3h-1.5V8.5h1.5v.5c.5-.5 1.5-1 2.5-1 1.5 0 2 1 2 2.5v3h-1.5z"/>
-                </svg>
+                    <svg className="linkedin-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.481 0 1.08 0h13.84C15.519 0 16 .513 16 1.146v13.708C16 15.487 15.519 16 14.92 16H1.08C.481 16 0 15.487 0 14.854V1.146zM4.5 13.5V8.5H3v5h1.5zm-1.5-6h1.5V6H3v1.5zm9.5 6V10c0-1.086-.23-1.5-1.5-1.5-1.086 0-1.5.414-1.5 1.5v3h-1.5V8.5h1.5v.5c.5-.5 1.5-1 2.5-1 1.5 0 2 1 2 2.5v3h-1.5z"/>
+                    </svg>
+                </a>
+            </p>
+            <p>
+                or check out my Stack Overflow 
+                <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
+                    <svg className="stack-overflow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <path d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z" />
+                    </svg>
                 </a>
             </p>
         </section>
     );
-}
+};
 
 export default Contact;
