@@ -1,38 +1,34 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
-  /* place-items: top; */
   min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
-  /* line-height: 1.1; */
+}
+
+a {
+  font-weight: 500;
+  color: #213547;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #213547; /* Consistent hover color */
 }
 
 button {
@@ -54,6 +50,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Light Mode Styles */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -67,7 +64,18 @@ button:focus-visible {
   }
 }
 
-/* Style for images in projects */
+/* Project Styles */
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Left justify items */
+  background-color: teal; /* Set the background color to teal */
+  text-align: left; /* Left justify the text */
+  width: 90%; /* Use a percentage for width */
+  margin: 20px auto; /* Center the container with margin */
+  padding: 2rem; /* Use rem for padding */
+}
+
 .project-image {
   max-width: 100%; /* Ensure the image is responsive */
   height: auto; /* Maintain aspect ratio */
@@ -75,17 +83,24 @@ button:focus-visible {
   margin-bottom: 15px; /* Space below the image */
 }
 
-/* Optional: Container for project items */
-.project-container {
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  margin: 20px; /* Space around the container */
+h4 {
+  font-size: 2.5vw; /* Responsive font size */
 }
 
-/* Optional: Style for project titles */
+p {
+  font-size: 1.5vw; /* Responsive font size */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .project-container {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+}
+
+/* Project Title Styles */
 .project-title {
   font-size: 1.5em; /* Adjust font size for project titles */
-  margin: 10px 0; /* Space above and below the title */
+  margin: 5px 0; /* Space above and below the title */
   color: #ffffff; /* Ensure the title is readable on dark background */
 }
