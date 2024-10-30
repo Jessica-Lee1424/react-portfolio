@@ -1,6 +1,5 @@
 # React Portfolio
-Using API Keys to get weather in various cities
-
+Using React to put together the work we've done in class so far.
 ## Table of Contents
 - [License](#license)
 - [Description](#description)
