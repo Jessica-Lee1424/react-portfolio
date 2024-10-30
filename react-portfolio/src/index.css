@@ -66,3 +66,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Style for images in projects */
+.project-image {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+/* Optional: Container for project items */
+.project-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin: 20px; /* Space around the container */
+}
+
+/* Optional: Style for project titles */
+.project-title {
+  font-size: 1.5em; /* Adjust font size for project titles */
+  margin: 10px 0; /* Space above and below the title */
+  color: #ffffff; /* Ensure the title is readable on dark background */
+}

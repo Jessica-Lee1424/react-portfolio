@@ -8,11 +8,11 @@
   }
   
   /* Example styles */
-  body {
-    background-color: var(--color-white);
+  /* body {
+    background-color: var(--color-teal);
     color: var(--color-dark);
   }
-  
+   */
   .header {
     background-color: var(--color-teal);
     padding: 5px;
