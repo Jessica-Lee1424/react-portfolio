@@ -1,2 +1,35 @@
-# react-portfolio
-AS AN employer looking for candidates with experience building single-page applications I WANT to view a potential employee's deployed React portfolio of work samples SO THAT I can assess whether they're a good candidate for an open position
+# React Portfolio
+Using API Keys to get weather in various cities
+
+## Table of Contents
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Testing](#testing)
+- [GitHub](#github-username)
+- [Email](#email-address)
+
+## License
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Description
+After completing completed multiple projects, I wanted to compile various assignments into a single-page portfolio. To do so, I used React and Netlify.
+
+## Installation
+npm, Vite
+
+## Usage
+For fun
+
+## Contributions
+Benecio Lopez, tutor
+
+## Testing
+None needed
+
+## GitHub Username
+[GitHub](https://github.com/Jessica-Lee1424)
+
+## [Email Author](mailto:jgonnella@test.mail)
