@@ -9,6 +9,8 @@ Using React to put together the work we've done in class so far.
 - [Testing](#testing)
 - [GitHub](#github-username)
 - [Email](#email-address)
+- [Image](#website-image)
+
 
 ## License
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -34,4 +36,4 @@ None needed
 ## [Email Author](mailto:jgonnella@test.mail)
 
 ## Website Example
-![My Image](assets/image.png)
+![My Image](/react-portfolio/jgwebsite.png)
