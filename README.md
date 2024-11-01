@@ -9,7 +9,7 @@ Using React to put together the work we've done in class so far.
 - [Testing](#testing)
 - [GitHub](#github-username)
 - [Email](#email-address)
-- [Image](#website-image)
+- [Website Example](#website-example)
 
 
 ## License
