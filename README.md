@@ -1,5 +1,3 @@
-# React Portfolio
-Using React to put together the work we've done in class so far.
 ## Table of Contents
 - [License](#license)
 - [Description](#description)
@@ -7,16 +5,15 @@ Using React to put together the work we've done in class so far.
 - [Usage](#usage)
 - [Contributions](#contributions)
 - [Testing](#testing)
-- [GitHub](#github-username)
-- [Email](#email-address)
+- [GitHub](#github)
+- [Email Author](#email-author)
 - [Website Example](#website-example)
-
 
 ## License
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-After completing completed multiple projects, I wanted to compile various assignments into a single-page portfolio. To do so, I used React and Netlify.
+After completing multiple projects, I wanted to compile various assignments into a single-page portfolio. To do so, I used React and Netlify.
 
 ## Installation
 npm, Vite
@@ -30,10 +27,11 @@ Benecio Lopez, tutor
 ## Testing
 None needed
 
-## GitHub Username
+## GitHub
 [GitHub](https://github.com/Jessica-Lee1424)
 
-## [Email Author](mailto:jgonnella@test.mail)
+## Email Author
+[Email Author](mailto:jgonnella@test.mail)
 
 ## Website Example
 ![My Image](/react-portfolio/jgwebsite.png)
