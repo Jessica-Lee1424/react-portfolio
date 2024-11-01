@@ -32,3 +32,6 @@ None needed
 [GitHub](https://github.com/Jessica-Lee1424)
 
 ## [Email Author](mailto:jgonnella@test.mail)
+
+## Website Example
+![My Image](assets/image.png)
