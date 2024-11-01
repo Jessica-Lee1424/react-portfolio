@@ -5,34 +5,66 @@ function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
+    // const handleSubmit = (e) => {
+    //     e.preventDefault(); // Prevent the default form submission behavior
+
+    //     if (name === '') {
+    //         alert('Please enter your name');
+    //         return; // Exit the function if validation fails
+    //     }
+    //     if (email === '') {
+    //         alert('Please enter your email address');
+    //         return; // Exit the function if validation fails
+    //     }
+        
+    //     // Validate email format
+    //     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
+    //     if (!emailRegex.test(email)) {
+    //         alert('Please enter a valid email address');
+    //         return; // Exit the function if validation fails
+    //     }
+
+    //     if (message === '') {
+    //         alert('Please enter a message');
+    //         return; // Exit the function if validation fails
+    //     }
+
+    //     // If all validations pass, you can proceed with form submission logic here
+    //     alert('Form submitted successfully!'); // Placeholder for successful submission
+    // };
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevent the default form submission behavior
-
+    
+        let missingFields = []; // Array to hold missing field messages
+    
         if (name === '') {
-            alert('Please enter your name');
-            return; // Exit the function if validation fails
+            missingFields.push('name');
         }
         if (email === '') {
-            alert('Please enter your email address');
-            return; // Exit the function if validation fails
+            missingFields.push('email address');
         }
         
         // Validate email format
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple email regex
-        if (!emailRegex.test(email)) {
+        if (email && !emailRegex.test(email)) {
             alert('Please enter a valid email address');
             return; // Exit the function if validation fails
         }
-
+    
         if (message === '') {
-            alert('Please enter a message');
+            missingFields.push('message');
+        }
+    
+        // If there are missing fields, alert the user
+        if (missingFields.length > 0) {
+            alert(`Please enter the missing information: ${missingFields.join(', ')}`);
             return; // Exit the function if validation fails
         }
-
+    
         // If all validations pass, you can proceed with form submission logic here
         alert('Form submitted successfully!'); // Placeholder for successful submission
     };
-
+    
     return (
         <section id="contact">
             <h2>Contact Information</h2>
