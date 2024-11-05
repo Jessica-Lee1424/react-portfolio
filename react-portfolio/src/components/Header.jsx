@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'; // Import your CSS file
+import './header.css'; // Import your CSS file
 
 const Header = () => {
     return (
